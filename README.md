@@ -60,12 +60,19 @@ Key features include:
 
 1. Clone or download this repository
 ```bash
-cd MLproj
+git clone https://github.com/im-mrnull/Loan-Default-Prediction.git
+cd Loan-Default-Prediction
 ```
 
 2. Install required packages
 ```bash
 pip install -r requirements.txt
+```
+
+> Recommended (optional): create and activate a virtual environment before installing dependencies (zsh/Linux):
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
 ## 🚀 Usage
@@ -117,7 +124,7 @@ Model comparison is visualized using interactive plots with hvplot.
 ## 📁 Project Structure
 
 ```
-MLproj/
+Loan-Default-Prediction/
 │
 ├── lending_club_loan_two.csv              # Dataset
 ├── lending-club-loan-defaulters-prediction.ipynb  # Main notebook
